@@ -1,0 +1,15 @@
+<world>
+  <properties>
+    <defaultSize height='10' width='10'/>
+  </properties>
+  <objects>
+    <beeper x='4' y='3' num='1'/>
+    <beeper x='4' y='1' num='1'/>
+    <beeper x='3' y='3' num='1'/>
+    <beeper x='3' y='1' num='1'/>
+    <beeper x='1' y='1' num='1'/>
+    <beeper x='4' y='2' num='1'/>
+    <beeper x='3' y='4' num='1'/>
+    <beeper x='3' y='2' num='1'/>
+  </objects>
+</world>

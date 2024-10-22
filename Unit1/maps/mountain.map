@@ -1,0 +1,42 @@
+<world>
+  <properties>
+    <defaultSize height='15' width='17'/>
+  </properties>
+  <objects>
+    <beeper x='14' y='3' num='1'/>
+    <wall x='14' y='2' length='1' style='horizontal'/>
+    <wall x='4' y='6' length='1' style='horizontal'/>
+    <wall x='10' y='2' length='1' style='horizontal'/>
+    <wall x='6' y='2' length='1' style='horizontal'/>
+    <wall x='2' y='2' length='1' style='horizontal'/>
+    <wall x='13' y='4' length='1' style='horizontal'/>
+    <wall x='11' y='4' length='1' style='horizontal'/>
+    <wall x='5' y='4' length='1' style='horizontal'/>
+    <wall x='3' y='4' length='1' style='horizontal'/>
+    <wall x='12' y='6' length='1' style='horizontal'/>
+    <wall x='2' y='3' length='1' style='vertical'/>
+    <wall x='14' y='2' length='1' style='vertical'/>
+    <wall x='4' y='6' length='1' style='vertical'/>
+    <wall x='3' y='6' length='1' style='vertical'/>
+    <wall x='9' y='2' length='1' style='vertical'/>
+    <wall x='12' y='5' length='1' style='vertical'/>
+    <wall x='11' y='5' length='1' style='vertical'/>
+    <wall x='6' y='2' length='1' style='vertical'/>
+    <wall x='1' y='2' length='1' style='vertical'/>
+    <wall x='14' y='1' length='1' style='vertical'/>
+    <wall x='4' y='5' length='1' style='vertical'/>
+    <wall x='3' y='5' length='1' style='vertical'/>
+    <wall x='9' y='1' length='1' style='vertical'/>
+    <wall x='13' y='4' length='1' style='vertical'/>
+    <wall x='6' y='1' length='1' style='vertical'/>
+    <wall x='10' y='4' length='1' style='vertical'/>
+    <wall x='1' y='1' length='1' style='vertical'/>
+    <wall x='5' y='4' length='1' style='vertical'/>
+    <wall x='2' y='4' length='1' style='vertical'/>
+    <wall x='13' y='3' length='1' style='vertical'/>
+    <wall x='10' y='3' length='1' style='vertical'/>
+    <wall x='12' y='6' length='1' style='vertical'/>
+    <wall x='11' y='6' length='1' style='vertical'/>
+    <wall x='5' y='3' length='1' style='vertical'/>
+  </objects>
+</world>

@@ -1,0 +1,15 @@
+<world>
+  <properties/>
+  <objects>
+    <beeper x='7' y='7' num='1'/>
+    <beeper x='5' y='7' num='4'/>
+    <beeper x='3' y='7' num='4'/>
+    <beeper x='5' y='1' num='1'/>
+    <beeper x='1' y='7' num='1'/>
+    <beeper x='7' y='6' num='2'/>
+    <beeper x='7' y='4' num='1'/>
+    <beeper x='7' y='2' num='2'/>
+    <beeper x='5' y='4' num='3'/>
+    <beeper x='1' y='2' num='5'/>
+  </objects>
+</world>

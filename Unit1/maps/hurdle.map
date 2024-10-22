@@ -1,0 +1,18 @@
+<world>
+  <properties>
+    <defaultSize height='12' width='12'/>
+  </properties>
+  <objects>
+    <beeper x='9' y='1' num='1'/>
+    <beeper x='7' y='1' num='1'/>
+    <beeper x='5' y='1' num='1'/>
+    <beeper x='3' y='1' num='1'/>
+    <wall x='11' y='1' length='1' style='horizontal'/>
+    <wall x='10' y='1' length='1' style='vertical'/>
+    <wall x='8' y='1' length='1' style='vertical'/>
+    <wall x='6' y='1' length='1' style='vertical'/>
+    <wall x='4' y='1' length='1' style='vertical'/>
+    <wall x='2' y='1' length='1' style='vertical'/>
+    <wall x='11' y='1' length='1' style='vertical'/>
+  </objects>
+</world>
