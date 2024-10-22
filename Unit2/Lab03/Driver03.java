@@ -11,7 +11,6 @@ public class Driver03 {
       frame.setLocation(100, 50);
       frame.setDefaultCloseOperation(3);
       frame.setContentPane(new Panel03(numLines,numRays));
-      frame.setContentPane(new Panel03(50,12));
       frame.setVisible(true);
    }
 }

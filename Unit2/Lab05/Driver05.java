@@ -12,7 +12,7 @@ public class Driver05
       frame.setSize(400, 400);
       frame.setLocation(100, 50);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      frame.setContentPane(new Triangle());
+      frame.setContentPane(new BugPanel());
       frame.setVisible(true);
    }
 }
