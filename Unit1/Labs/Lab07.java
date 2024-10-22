@@ -1,36 +1,42 @@
-  	//Torbert, e-mail: smtorbert@fcps.edu
-	//version 4.22.2003
+package Labs;
+//Torbert, e-mail: smtorbert@fcps.edu
+//version 4.22.2003
 
-   import edu.fcps.karel2.Display;
-   import javax.swing.JOptionPane;
-    public class Lab07
+import edu.fcps.karel2.Display;
+import javax.swing.JOptionPane;
+import Robots.Mountain;
+import Robots.Climber;
+import Robots.HillClimber;
+import Robots.StepClimber;
+
+ public class Lab07
+{
+    public static void main(String[] args)
    {
-       public static void main(String[] args) 
+      String filename = JOptionPane.showInputDialog("What robot world?");
+      String type = JOptionPane.showInputDialog("What type of climber?");
+      String avenue = JOptionPane.showInputDialog("What x-coordinate?");
+      int x = Integer.parseInt(avenue);
+
+      Display.openWorld("Unit1/maps/"+filename+".map");
+      Display.setSize(17, 15);
+      Display.setSpeed(10);
+
+      if(type.equals("Climber"))
       {
-         String filename = JOptionPane.showInputDialog("What robot world?");
-         String type = JOptionPane.showInputDialog("What type of climber?");
-         String avenue = JOptionPane.showInputDialog("What x-coordinate?");
-         int x = Integer.parseInt(avenue);
-      
-         Display.openWorld("maps/"+filename+".map");
-         Display.setSize(17, 15);
-         Display.setSpeed(10);
-      
-         if(type.equals("Climber"))
-         {
-            Mountain.explore( new Climber(x) );
-         }
-         else if(type.equals("HillClimber"))
-         {
-            Mountain.explore( new HillClimber(x) );
-         }
-         else if(type.equals("StepClimber"))
-         {
-            Mountain.explore( new StepClimber(x) );
-         }
-         else
-         {
-            System.out.println("Invalid robot type.");
-         }
+         Mountain.explore( new Climber(x) );
+      }
+      else if(type.equals("HillClimber"))
+      {
+         Mountain.explore( new HillClimber(x) );
+      }
+      else if(type.equals("StepClimber"))
+      {
+         Mountain.explore( new StepClimber(x) );
+      }
+      else
+      {
+         System.out.println("Invalid robot type.");
       }
    }
+}

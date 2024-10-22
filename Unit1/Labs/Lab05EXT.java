@@ -1,6 +1,7 @@
-//Zain Marshall 08/26/2024
+package Labs;//Zain Marshall 08/26/2024
 import edu.fcps.karel2.Robot;
 import edu.fcps.karel2.Display;
+
 public class Lab05EXT{
   
    public static void main(String[] args){

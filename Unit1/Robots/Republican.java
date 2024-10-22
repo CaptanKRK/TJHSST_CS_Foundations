@@ -1,3 +1,5 @@
+package Robots;
+
 public class Republican extends MazeEscaper implements Runnable
 {
    public void walkDownCurrentSegment(){

@@ -1,6 +1,7 @@
 package Labs;//Zain Marshall 08/26/2024
 import edu.fcps.karel2.Display;
 import Robots.Racer;
+
 public class Lab05{
    public static void runTheRace(Racer r){      
       r.move();
@@ -10,7 +11,7 @@ public class Lab05{
    }
    
    public static void main(String[] args){
-      Display.openWorld("maps/shuttle.map");
+      Display.openWorld("Unit1/maps/shuttle.map");
       Display.setSize(10,10);
       Display.setSpeed(2);
       Racer r1 = new Racer(1);

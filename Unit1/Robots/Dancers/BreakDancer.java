@@ -1,21 +1,20 @@
-//Zain Marshall 08/31/2024
+package Robots.Dancers;//Zain Marshall 08/31/2024
 
 import edu.fcps.karel2.Display;
-public class SquareDancer extends Dancer
+public  class BreakDancer extends Dancer
 {
-   public SquareDancer(int x, int y, int dir, int beep)
+   public BreakDancer(int x, int y, int dir, int beep)
    {
       super(x, y, dir, beep);
    }
-   public SquareDancer()
+   public BreakDancer()
    {
       super(1, 1, Display.EAST, 0);
    }
    public void danceStep(){
-      for(int i=0;i<3;i++){
-         this.move();
+      for(int i=0;i<100;i++){
+         this.turnLeft();
       }
-      this.turnLeft();
        
    }
    @Override

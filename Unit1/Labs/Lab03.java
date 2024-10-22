@@ -1,9 +1,10 @@
-package Labs;//Zain Marshall, 08/17/2024
+package Labs;
+//Zain Marshall, 08/17/2024
 import edu.fcps.karel2.Display;
-
+import Robots.Climber;
 public class Lab03{
    public static void main(String[] args){
-      Display.openWorld("maps/mountain.map");
+      Display.openWorld("Unit1/maps/mountain.map");
       Display.setSize(16,16);
      
       Climber a =new Climber(8);

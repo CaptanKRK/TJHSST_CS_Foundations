@@ -1,4 +1,4 @@
-//Zain Marshall 08/26/24
+package Labs;//Zain Marshall 08/26/24
 import edu.fcps.karel2.Display;
 import edu.fcps.karel2.Robot;
 import javax.swing.JOptionPane;
@@ -7,7 +7,7 @@ public class Lab06
    public static void main(String[] args) 
    {
       String filename = JOptionPane.showInputDialog("What robot world?");
-      Display.openWorld("maps/" + filename + ".map");
+      Display.openWorld("Unit1/maps/" + filename + ".map");
       Display.setSize(12, 12);
       Display.setSpeed(10);
       

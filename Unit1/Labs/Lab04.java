@@ -1,5 +1,7 @@
 package Labs;//Zain Marshall, 08-20-2024
 import edu.fcps.karel2.Display;
+import Robots.Athlete;
+
 public class Lab04{
    public static void takeTheField(Athlete arg){
       arg.move();
@@ -13,7 +15,7 @@ public class Lab04{
    
  
    public static void main(String[] args){
-      Display.openWorld("maps/arena.map");
+      Display.openWorld("Unit1/maps/arena.map");
       Display.setSize(10,10);
       Display.setSpeed(10);
       new Athlete(2,7,Display.EAST,0);

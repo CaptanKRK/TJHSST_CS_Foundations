@@ -1,7 +1,8 @@
-//Zain Marshall 08/31/2024
+package Robots.Dancers;//Zain Marshall 08/31/2024
 
 import edu.fcps.karel2.Display;
-public class SpinDancer extends Dancer 
+
+public class SpinDancer extends Dancer
 {
    public SpinDancer(int x, int y, int dir, int beep)
    {

@@ -1,4 +1,4 @@
-	//Name______________________________ Date_____________
+package Robots;    //Name______________________________ Date_____________
 import edu.fcps.karel2.Display;
 import edu.fcps.karel2.Robot;
 public class Swimmer extends Robot implements Runnable

@@ -1,3 +1,5 @@
+package Robots;
+
 import edu.fcps.karel2.*;
 
 public class Seeker extends Athlete {
