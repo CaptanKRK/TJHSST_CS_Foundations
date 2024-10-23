@@ -11,7 +11,7 @@ public class Panel02 extends JPanel {
     //Draws a frame with a picture in the center.
     public void drawFrame(int x1, int x2, int y1,int y2,int r, String url, Color color,Graphics g){
         g.setColor(color);
-        g.fillRect((int) x1+r/2, (int) y1+r/2, x2-x1, y2-y1);
+        g.fillRect( x1+r/2, (int) y1+r/2, x2-x1, y2-y1);
 
         for(int x = x1; x <= x2; x += r) {
             g.fillOval(x, y1, r, r);
