@@ -12,3 +12,7 @@ The labs for the TJHSST Foundations of Computer Science course.
 
 ## Credits
 This work is derived from the FCPS Java Packets developed by Shane Torbert edited Marion Billigton under the direction of Gerry Berry for the Foundations of Computer Science Honors course in Thomas Jefferson High School for Science and Technology of Fairfax County Public Schools in Fairfax, Virginia. The FCPS Java Packets are licensed under the Creative Commons Attribution-Noncommercial-No Derivative Works 2.5 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+
+## Resources
+https://compsci.sites.tjhsst.edu/CSweb/index.html
+This website contains the Shell code and Packets for the TJ Computer Science Foundations Course. This also contains the API for Karel. 
