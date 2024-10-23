@@ -1,5 +1,9 @@
 package Labs;//Zain Marshall 08/31/2024
-import Robots.Dancers.*;
+import Robots.BreakDancer;
+import Robots.ZigZagDancer;
+import Robots.SpinDancer;
+import Robots.SquareDancer;
+
 
 public class Lab15
 {

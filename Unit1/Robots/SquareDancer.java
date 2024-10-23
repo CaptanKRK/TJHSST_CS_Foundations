@@ -1,4 +1,4 @@
-package Robots.Dancers;//Zain Marshall 08/31/2024
+package Robots;//Zain Marshall 08/31/2024
 
 import edu.fcps.karel2.Display;
 public class SquareDancer extends Dancer
