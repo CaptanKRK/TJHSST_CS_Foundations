@@ -1,3 +1,5 @@
+package Lab03;
+
 import java.awt.*;
 import javax.swing.JPanel;
 import java.awt.image.BufferedImage;

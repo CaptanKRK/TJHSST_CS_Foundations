@@ -1,3 +1,4 @@
+package Lab04;
 //Zain Marshall
 import edu.fcps.Bucket;
 import javax.swing.*;

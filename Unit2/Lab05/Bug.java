@@ -1,3 +1,5 @@
+package Lab05;
+
 /**
  *  Bugs are simple creatures that only know how to walk towards other bugs.
  *  Bugs maintain information about their (x, y) position.

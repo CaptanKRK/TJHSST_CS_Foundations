@@ -1,3 +1,4 @@
+package Lab04;
 //Zain Marshall
 import edu.fcps.Bucket;
 import javax.swing.*;
@@ -14,14 +15,14 @@ public class Driver04b
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       frame.setContentPane(new BucketPanel());
       frame.setVisible(true);
-   
+
       Bucket.setSpeed(10);
-      Bucket.useTotal(true);  
-            
+      Bucket.useTotal(true);
+
       Bucket five = new Bucket(5);
       Bucket four = new Bucket(4);
       Bucket three = new Bucket(3);
-      
+
       five.fill(); //5
       //5 0 0
       four.fill(); //9
@@ -46,7 +47,7 @@ public class Driver04b
       //2 4 0
       four.spill(); //2
       //2 0 0
-      five.pourInto(three); 
+      five.pourInto(three);
       //0 0 2
       five.fill();
       //5 0 2
@@ -60,3 +61,4 @@ public class Driver04b
       //5 2 3
    }
 }
+
