@@ -17,7 +17,7 @@ public class Driver06
       SquareTurtle a = new SquareTurtle();
       SquareTurtle b = new SquareTurtle(100);
       SquareTurtle c = new SquareTurtle(300, 500, 100);
-      SquareTurtle d = new SquareTurtle(400, 300, 50, 25.0D);  
+      SquareTurtle d = new SquareTurtle(400, 300, 50, 25);  
              
       a.setColor(Color.BLUE);
       a.setThickness(6);
