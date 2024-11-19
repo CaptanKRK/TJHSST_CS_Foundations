@@ -35,7 +35,7 @@ public class Panel02 extends JPanel {
         g.fillRect(0, 0, 1000, 1000);
 
         //Drawing four picture frames
-        drawFrame(125,265,50,230,20, "Unit2/Lab02/som.jpv/ksafjnsadfsadfbkjsad0,20, "Unit2/Lab02/som.jpg",Color.PINK.darker(),g);
+        drawFrame(125,265,50,230,20, "Unit2/Lab02/som.jpg",Color.PINK.darker(),g);
         drawFrame(125-60,265-60,50+400,230+400,20, "Unit2/Lab02/som.jpg",Color.BLUE.darker(),g);
         drawFrame(125+500,265+500,60,250,20, "Unit2/Lab02/som.jpg",Color.GREEN.darker(),g);
     }
