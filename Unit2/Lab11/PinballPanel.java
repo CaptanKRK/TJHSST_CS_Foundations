@@ -14,6 +14,7 @@ package Lab11;   //Torbert, e-mail: smtorbert@fcps.edu
       private BufferedImage myImage;
       private Graphics myBuffer;
       private Ball ball;
+      private TJ tj;
       private Timer t;
        public PinballPanel()
       {
@@ -24,7 +25,7 @@ package Lab11;   //Torbert, e-mail: smtorbert@fcps.edu
          int xPos = (int)(Math.random()*(FRAME-100) + 50);
          int yPos = (int)(Math.random()*(FRAME-100)+ 50);
          ball = new Ball(xPos, yPos, 50, Color.BLACK);
-         //ball=new TJ(); EXTENSIONPrizePanel.java
+         tj=new TJ();
          t = new Timer(5, new Listener());
          t.start();
       }
@@ -39,7 +40,9 @@ package Lab11;   //Torbert, e-mail: smtorbert@fcps.edu
             myBuffer.setColor(BACKGROUND);    //cover the 
             myBuffer.fillRect(0,0,FRAME,FRAME);   //old ball
             ball.move(FRAME,FRAME);
-            ball.draw(myBuffer);     
+            ball.draw(myBuffer);
+            tj.move(FRAME,FRAME);
+            tj.draw(myBuffer);
             repaint();
          }
       }
