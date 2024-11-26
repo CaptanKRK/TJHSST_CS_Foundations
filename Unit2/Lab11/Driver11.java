@@ -6,7 +6,7 @@ public class Driver11
 {
     public static void main(String[] args)
     {
-        JFrame frame = new JFrame("Unit2, Lab10: Polka Dots");
+        JFrame frame = new JFrame("Unit2, Lab11: Pinball");
         frame.setSize(400, 400);
         frame.setLocation(0, 0);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

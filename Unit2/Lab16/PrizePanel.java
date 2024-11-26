@@ -77,8 +77,6 @@ public class PrizePanel extends JPanel
        private void collide(Ball b, Polkadot pd){
            double d=distance(b.getX(), b.getY(), pd.getX(), pd.getY());
            if(d<=b.getRadius()+pd.getRadius()){
-               b.setdx(-b.getdx());
-               b.setdy(-b.getdy());
                hits++;
                pd.jump(FRAME, FRAME);
            }

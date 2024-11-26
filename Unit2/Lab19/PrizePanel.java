@@ -29,7 +29,7 @@ import java.awt.image.BufferedImage;
 
           myPDarray=new Polkadot[50];
             for(int i=0; i<myPDarray.length; i++){
-                myPDarray[i]=new Polkadot((int)(Math.random()*(FRAME-50)+25), (int)(Math.random()*(FRAME-50)+25), 50, Color.RED);
+                myPDarray[i]=new Polkadot((int)(Math.random()*(FRAME-50)+25), (int)(Math.random()*(FRAME-50)+25), 25, Color.RED);
             }
           pd= new Polkadot(xPos, yPos, 50, Color.RED);
           t = new Timer(5, new Listener());
@@ -50,7 +50,10 @@ import java.awt.image.BufferedImage;
              collide(ball, myPDarray);
 
              ball.draw(myBuffer);
-             pd.draw(myBuffer);
+
+                for (Polkadot pd : myPDarray) {
+                    pd.draw(myBuffer);
+                }
 
              myBuffer.setColor(Color.BLACK);
              myBuffer.setFont(new Font("Monospaced", Font.BOLD, 24));
@@ -65,8 +68,7 @@ import java.awt.image.BufferedImage;
            for (Polkadot pd : pds) {
                double d=distance(b.getX(), b.getY(), pd.getX(), pd.getY());
                if(d<=b.getRadius()+pd.getRadius()){
-                   b.setdx(-b.getdx());
-                   b.setdy(-b.getdy());
+
                    hits++;
                    pd.jump(FRAME, FRAME);
                }
