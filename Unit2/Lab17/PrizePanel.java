@@ -24,7 +24,7 @@ public class PrizePanel extends JPanel
           int xPos = (int)(Math.random()*(FRAME-100) + 50);
           int yPos = (int)(Math.random()*(FRAME-100)+ 50);
           ball = new Ball(xPos, yPos, 50, Color.BLACK);
-          pd= new Polkadot(xPos, yPos, 50, Color.RED);
+          pd= new Polkadot(xPos, yPos, 25, Color.RED);
 
           addKeyListener(new Key());
           t = new Timer(5, new Listener());
@@ -84,8 +84,7 @@ public class PrizePanel extends JPanel
        private void collide(Ball b, Polkadot pd){
            double d=distance(b.getX(), b.getY(), pd.getX(), pd.getY());
            if(d<=b.getRadius()+pd.getRadius()){
-               b.setdx(-b.getdx());
-               b.setdy(-b.getdy());
+              
                hits++;
                pd.jump(FRAME, FRAME);
            }

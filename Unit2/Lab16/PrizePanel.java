@@ -27,7 +27,7 @@ public class PrizePanel extends JPanel
           int xPos = (int)(Math.random()*(FRAME-100) + 50);
           int yPos = (int)(Math.random()*(FRAME-100)+ 50);
           ball = new Ball(xPos, yPos, 50, Color.BLACK);
-          pd= new Polkadot(xPos, yPos, 50, Color.RED);
+          pd= new Polkadot(xPos, yPos, 20, Color.RED);
 
           addMouseListener(new Mouse());
           t = new Timer(5, new Listener());
